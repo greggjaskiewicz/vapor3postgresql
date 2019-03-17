@@ -2,9 +2,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "vapor3wordfinder",
+    name: "Vapor3PostgreSQL",
     products: [
-        .library(name: "vapor3wordfinder", targets: ["App"]),
+        .library(name: "Vapor 3 PostgreSQL", targets: ["App"]),
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
